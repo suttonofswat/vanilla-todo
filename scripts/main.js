@@ -4,7 +4,7 @@
 var toDoBtn = document.getElementById('toDoBtn');
 var label = document.getElementById('label');
 var ulList = document.getElementById('ulList');
-var lsList = document.getElementById('lsList');
+// var lsList = document.getElementById('lsList');
 var listArray = [];
 localStorage['listArray'] = JSON.stringify(listArray);
 
@@ -28,10 +28,10 @@ function render(){
 };
 
 
-for (var i = 0; i < localStorage.length; i++){
-   var doneList = document.createElement('div');
-   lsList.appendChild(doneList);
-   lsList.innerHTML = localStorage[i];
+// for (var i = 0; i < localStorage.length; i++){
+//    var doneList = document.createElement('div');
+//    lsList.appendChild(doneList);
+//    lsList.innerHTML = localStorage[i];
 
 	
-}
+// }
